@@ -1,18 +1,16 @@
 import React, { useState } from 'react'
 import { cancelBooking, getBookingByConfirmationCode } from '../utils/ApiFunctions'
-import { tr } from 'date-fns/locale'
-import moment from '../../../node_modules/moment/moment'
-
+import moment from "moment"
 const FindBooking = () => {
 
   const [confirmationCode, setConfirmationCode] = useState("")
-  const [error, setError] = useState("")
+  const [error, setError] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
   const [isDeleted, setIsDeleted] = useState(false)
 
   const [bookingInfo, setBookingInfo] = useState({
     bookingId: "",
-    room: {id: ""},
+    room: {},
     bookingConfirmationCode: "",
     roomNumber: "",
     checkInDate: "",
@@ -49,12 +47,14 @@ const FindBooking = () => {
     try {
       const data = await getBookingByConfirmationCode(confirmationCode)
       setBookingInfo(data)
+      setError(null)
+      console.log(data);
     } catch (error) {
       setBookingInfo(clearBookingInfo)
       if (error.response && error.response.status === 404) {
         setError(error.response.data.message)
       } else {
-        setError(error.response)
+        setError(error.message)
       }
     }
     setTimeout(() => {
@@ -71,7 +71,11 @@ const FindBooking = () => {
       setError("")
     } catch (error) {
       setError(error.message)
+      console.log(error);
     }
+    setTimeout(() => {
+      setIsDeleted(false)
+    }, 2000);
   }
 
   return (
@@ -131,7 +135,7 @@ const FindBooking = () => {
       {isDeleted && (
         <div className='alert alert-success mt-3' role='alert'>Booking has been cancelled successfully</div>
       )}
-    </div>
+    </div> 
     </>
   )
 }

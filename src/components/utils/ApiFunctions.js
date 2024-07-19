@@ -101,7 +101,7 @@ export async function getAllBookings() {
 export async function getBookingByConfirmationCode(confirmationCode) {
   try {
     const result = await api.get(`/bookings/confirmation/${confirmationCode}`)
-    return result
+    return result.data
   } catch (error) {
     if (error.response && error.response.data) {
       throw new Error(error.response.data)
@@ -119,4 +119,16 @@ export async function cancelBooking(bookingId) {
   } catch (error) {
     throw new Error(`Error cancelling booking: ${error.message}`)
   }
+}
+
+// gets all available rooms for the given date and room type
+export async function getAvailableRooms(checkInDate, checkOutDate, roomType) {
+  // console.log(formData);
+  // Notes: When using Axios to send a GET request, the params attribute is used to specify query parameters. These parameters are automatically converted into a query string by Axios and appended to the URL.
+  const result = await api.get("/rooms/available-rooms", {params: {
+    "checkInDate": checkInDate,
+    "checkOutDate": checkOutDate,
+    "roomType": roomType
+  }})
+  return result
 }

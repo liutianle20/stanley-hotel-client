@@ -32,12 +32,13 @@ const BookingTable = ({bookingInfo, handleBookingCancellation}) => {
         <thead>
           <tr>
             <th>S/N</th>
-            <th>Booking Id</th>
-            <th>Room Id</th>
+            {/* <th>Booking Id</th> */}
+            {/* <th>Room Id</th>  */}
+            <th>Guest Name</th>
+            <th>Room Type</th>
             <th>Check-in Date</th>
             <th>Check-out Date</th>
-            <th>Guest Name</th>
-            <th>Gust Email</th>
+            <th>Gust Email</th> 
             <th>Adults</th>
             <th>Children </th>
             <th>Total Guests</th>
@@ -49,15 +50,16 @@ const BookingTable = ({bookingInfo, handleBookingCancellation}) => {
           {filteredBookings.map((booking, index) => (
             <tr key={booking.bookingId}>
               <td>{index + 1}</td>
-              <td>{booking.bookingId}</td>
-              <td>{booking.room.id}</td>
+              {/* <td>{booking.bookingId}</td> */}
+              {/* <td>{booking.room.id}</td> */}
+              <td>{booking.guestFullName}</td>
+              <td>{booking.room.roomType}</td>
               <td>{booking.checkInDate}</td>
               <td>{booking.checkOutDate}</td>
-              <td>{booking.guestFullName}</td>
               <td>{booking.guestEmail}</td>
               <td>{booking.numOfAdults}</td>
               <td>{booking.numOfChildren}</td>
-              <td>{booking.totalNumOfGuests}</td>
+              <td>{booking.totalNumberOfGuests}</td>
               <td>{booking.bookingConfirmationCode}</td>
               <td>
                 <button
