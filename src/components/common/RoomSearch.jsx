@@ -62,6 +62,7 @@ const RoomSearch = () => {
       checkOutDate: "",
       roomType: "",
     })
+    setAvailableRooms([])
   }
 
   return (

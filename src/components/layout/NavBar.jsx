@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
+import { useContext } from 'react';
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from '../auth/AuthProvider';
+import Logout from '../auth/Logout';
 const NavBar = () => {
 
   const [showAccount, setShowAccount] = useState(false)
+  const { user } = useContext(AuthContext)
   const handleAccountClick = () => {
     setShowAccount(!showAccount)
   }
@@ -32,16 +36,16 @@ const NavBar = () => {
                 Browse all rooms
               </NavLink>
             </li>
-            {/* {isLoggedIn && userRole === "ROLE_ADMIN" && (
-              <li className='nav-item'>
-                <NavLink className='nav-link' aria-current="page" to={"/admin"}>
-                  Admin
-                </NavLink> */}
-            {true && (
+            {isLoggedIn && userRole === "ROLE_ADMIN" && (
               <li className='nav-item'>
                 <NavLink className='nav-link' aria-current="page" to={"/admin"}>
                   Admin
                 </NavLink>
+            {/* {true && (
+              <li className='nav-item'>
+                <NavLink className='nav-link' aria-current="page" to={"/admin"}>
+                  Admin
+                </NavLink> */}
 
               </li>
             )}
