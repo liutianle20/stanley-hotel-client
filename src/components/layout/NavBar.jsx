@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { createPopper } from '@popperjs/core';
 import { useContext } from 'react';
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from '../auth/AuthProvider';
@@ -6,7 +7,6 @@ import Logout from '../auth/Logout';
 const NavBar = () => {
 
   const [showAccount, setShowAccount] = useState(false)
-  const { user } = useContext(AuthContext)
   const handleAccountClick = () => {
     setShowAccount(!showAccount)
   }
@@ -57,8 +57,9 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className='nav-item dropdown'>
-              <a href="#"
+              <a 
                 className={`nav-link dropdown-toggle ${showAccount ? "show" : ""}`}
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
