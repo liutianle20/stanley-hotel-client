@@ -1,0 +1,10 @@
+"filename", "language", "HTML", "JSON with Comments", "JSON", "XML", "JavaScript", "Markdown", "comment", "blank", "total"
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/.eslintrc.cjs", "JavaScript", 0, 0, 0, 0, -21, 0, 0, -1, -22
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/README.md", "Markdown", 0, 0, 0, 0, 0, -5, 0, -4, -9
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/index.html", "HTML", -13, 0, 0, 0, 0, 0, 0, -1, -14
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/jsconfig.json", "JSON with Comments", 0, -8, 0, 0, 0, 0, -1, -1, -10
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/package-lock.json", "JSON", 0, 0, -5036, 0, 0, 0, 0, -1, -5037
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/package.json", "JSON", 0, 0, -38, 0, 0, 0, 0, -1, -39
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/public/vite.svg", "XML", 0, 0, 0, -1, 0, 0, 0, 0, -1
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/vite.config.js", "JavaScript", 0, 0, 0, 0, -5, 0, -1, -2, -8
+"Total", "-", -13, -8, -5074, -1, -26, -5, -2, -11, -5140

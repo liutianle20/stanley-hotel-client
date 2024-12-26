@@ -1,0 +1,62 @@
+Date : 2024-06-24 17:08:56
+Directory : /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src
+Total : 25 files,  1367 codes, 26 comments, 188 blanks, all 1581 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         21 |      1,042 |          8 |        136 |      1,186 |
+| CSS            |          2 |        228 |          4 |         40 |        272 |
+| JavaScript     |          1 |         96 |         14 |         12 |        122 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                 |         25 |      1,367 |         26 |        188 |      1,581 |
+| . (Files)                                                                                                         |          4 |        269 |          4 |         47 |        320 |
+| assets                                                                                                            |          1 |          1 |          0 |          0 |          1 |
+| components                                                                                                        |         20 |      1,097 |         22 |        141 |      1,260 |
+| components/admin                                                                                                  |          1 |         14 |          0 |          2 |         16 |
+| components/bookings                                                                                               |          1 |         76 |          0 |         14 |         90 |
+| components/common                                                                                                 |          7 |        296 |          1 |         29 |        326 |
+| components/home                                                                                                   |          1 |         19 |          0 |          2 |         21 |
+| components/layout                                                                                                 |          3 |        109 |          5 |         12 |        126 |
+| components/room                                                                                                   |          6 |        487 |          2 |         70 |        559 |
+| components/utils                                                                                                  |          1 |         96 |         14 |         12 |        122 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                          | language       | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/App.css                                | CSS            |         37 |          0 |          6 |         43 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/App.jsx                                | JavaScript JSX |         32 |          0 |          4 |         36 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/assets/react.svg                       | XML            |          1 |          0 |          0 |          1 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/admin/Admin.jsx             | JavaScript JSX |         14 |          0 |          2 |         16 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/bookings/BookingForm.jsx    | JavaScript JSX |         76 |          0 |         14 |         90 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/Header.jsx           | JavaScript JSX |         12 |          0 |          2 |         14 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/HotelService.jsx     | JavaScript JSX |         85 |          0 |          3 |         88 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/Parallax.jsx         | JavaScript JSX |         15 |          0 |          2 |         17 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomCarousel.jsx     | JavaScript JSX |         67 |          0 |          7 |         74 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomFilter.jsx       | JavaScript JSX |         31 |          1 |          6 |         38 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomPaginator.jsx    | JavaScript JSX |         20 |          0 |          2 |         22 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomTypeSelector.jsx | JavaScript JSX |         66 |          0 |          7 |         73 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/home/Home.jsx               | JavaScript JSX |         19 |          0 |          2 |         21 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/layout/Footer.jsx           | JavaScript JSX |         17 |          0 |          5 |         22 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/layout/MainHeader.jsx       | JavaScript JSX |         13 |          0 |          2 |         15 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/layout/NavBar.jsx           | JavaScript JSX |         79 |          5 |          5 |         89 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/AddRoom.jsx            | JavaScript JSX |        120 |          1 |         16 |        137 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/EditRoom.jsx           | JavaScript JSX |        132 |          1 |         24 |        157 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/ExistingRooms.jsx      | JavaScript JSX |        132 |          0 |         15 |        147 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/Room.jsx               | JavaScript JSX |         61 |          0 |         10 |         71 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/RoomCard.jsx           | JavaScript JSX |         32 |          0 |          2 |         34 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/RoomListing.jsx        | JavaScript JSX |         10 |          0 |          3 |         13 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/utils/ApiFunctions.js       | JavaScript     |         96 |         14 |         12 |        122 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/index.css                              | CSS            |        191 |          4 |         34 |        229 |
+| /Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/main.jsx                               | JavaScript JSX |          9 |          0 |          3 |         12 |
+| Total                                                                                                             |                |      1,367 |         26 |        188 |      1,581 |
++-------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -1,0 +1,27 @@
+"filename", "language", "JavaScript JSX", "CSS", "XML", "JavaScript", "comment", "blank", "total"
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/App.css", "CSS", 0, 37, 0, 0, 0, 6, 43
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/App.jsx", "JavaScript JSX", 32, 0, 0, 0, 0, 4, 36
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/assets/react.svg", "XML", 0, 0, 1, 0, 0, 0, 1
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/admin/Admin.jsx", "JavaScript JSX", 14, 0, 0, 0, 0, 2, 16
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/bookings/BookingForm.jsx", "JavaScript JSX", 76, 0, 0, 0, 0, 14, 90
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/Header.jsx", "JavaScript JSX", 12, 0, 0, 0, 0, 2, 14
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/HotelService.jsx", "JavaScript JSX", 85, 0, 0, 0, 0, 3, 88
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/Parallax.jsx", "JavaScript JSX", 15, 0, 0, 0, 0, 2, 17
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomCarousel.jsx", "JavaScript JSX", 67, 0, 0, 0, 0, 7, 74
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomFilter.jsx", "JavaScript JSX", 31, 0, 0, 0, 1, 6, 38
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomPaginator.jsx", "JavaScript JSX", 20, 0, 0, 0, 0, 2, 22
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/common/RoomTypeSelector.jsx", "JavaScript JSX", 66, 0, 0, 0, 0, 7, 73
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/home/Home.jsx", "JavaScript JSX", 19, 0, 0, 0, 0, 2, 21
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/layout/Footer.jsx", "JavaScript JSX", 17, 0, 0, 0, 0, 5, 22
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/layout/MainHeader.jsx", "JavaScript JSX", 13, 0, 0, 0, 0, 2, 15
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/layout/NavBar.jsx", "JavaScript JSX", 79, 0, 0, 0, 5, 5, 89
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/AddRoom.jsx", "JavaScript JSX", 120, 0, 0, 0, 1, 16, 137
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/EditRoom.jsx", "JavaScript JSX", 132, 0, 0, 0, 1, 24, 157
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/ExistingRooms.jsx", "JavaScript JSX", 132, 0, 0, 0, 0, 15, 147
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/Room.jsx", "JavaScript JSX", 61, 0, 0, 0, 0, 10, 71
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/RoomCard.jsx", "JavaScript JSX", 32, 0, 0, 0, 0, 2, 34
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/room/RoomListing.jsx", "JavaScript JSX", 10, 0, 0, 0, 0, 3, 13
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/components/utils/ApiFunctions.js", "JavaScript", 0, 0, 0, 96, 14, 12, 122
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/index.css", "CSS", 0, 191, 0, 0, 4, 34, 229
+"/Users/vincent/Documents/main/learn/hotel-booking/client/stanley-hotel/src/main.jsx", "JavaScript JSX", 9, 0, 0, 0, 0, 3, 12
+"Total", "-", 1042, 228, 1, 96, 26, 188, 1581
